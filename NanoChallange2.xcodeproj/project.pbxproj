@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D02D022BFDE13A00CA3867 /* NanoChallange2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D02D012BFDE13A00CA3867 /* NanoChallange2App.swift */; };
+		B7D02D042BFDE13A00CA3867 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D02D032BFDE13A00CA3867 /* ContentView.swift */; };
+		B7D02D062BFDE13C00CA3867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D02D052BFDE13C00CA3867 /* Assets.xcassets */; };
+		B7D02D092BFDE13C00CA3867 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D02D082BFDE13C00CA3867 /* Preview Assets.xcassets */; };
+		B7D02D132BFDE13C00CA3867 /* NanoChallange2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D02D122BFDE13C00CA3867 /* NanoChallange2Tests.swift */; };
+		B7D02D1D2BFDE13C00CA3867 /* NanoChallange2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D02D1C2BFDE13C00CA3867 /* NanoChallange2UITests.swift */; };
+		B7D02D1F2BFDE13C00CA3867 /* NanoChallange2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D02D1E2BFDE13C00CA3867 /* NanoChallange2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7D02D0F2BFDE13C00CA3867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D02CF62BFDE13A00CA3867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D02CFD2BFDE13A00CA3867;
+			remoteInfo = NanoChallange2;
+		};
+		B7D02D192BFDE13C00CA3867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D02CF62BFDE13A00CA3867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D02CFD2BFDE13A00CA3867;
+			remoteInfo = NanoChallange2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7D02CFE2BFDE13A00CA3867 /* NanoChallange2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallange2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D02D012BFDE13A00CA3867 /* NanoChallange2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallange2App.swift; sourceTree = "<group>"; };
+		B7D02D032BFDE13A00CA3867 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7D02D052BFDE13C00CA3867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7D02D082BFDE13C00CA3867 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7D02D0E2BFDE13C00CA3867 /* NanoChallange2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChallange2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D02D122BFDE13C00CA3867 /* NanoChallange2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallange2Tests.swift; sourceTree = "<group>"; };
+		B7D02D182BFDE13C00CA3867 /* NanoChallange2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChallange2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D02D1C2BFDE13C00CA3867 /* NanoChallange2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallange2UITests.swift; sourceTree = "<group>"; };
+		B7D02D1E2BFDE13C00CA3867 /* NanoChallange2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallange2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D02CFB2BFDE13A00CA3867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D02D0B2BFDE13C00CA3867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D02D152BFDE13C00CA3867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D02CF52BFDE13A00CA3867 = {
+			isa = PBXGroup;
+			children = (
+				B7D02D002BFDE13A00CA3867 /* NanoChallange2 */,
+				B7D02D112BFDE13C00CA3867 /* NanoChallange2Tests */,
+				B7D02D1B2BFDE13C00CA3867 /* NanoChallange2UITests */,
+				B7D02CFF2BFDE13A00CA3867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D02CFF2BFDE13A00CA3867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D02CFE2BFDE13A00CA3867 /* NanoChallange2.app */,
+				B7D02D0E2BFDE13C00CA3867 /* NanoChallange2Tests.xctest */,
+				B7D02D182BFDE13C00CA3867 /* NanoChallange2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D02D002BFDE13A00CA3867 /* NanoChallange2 */ = {
+			isa = PBXGroup;
+			children = (
+				B7D02D012BFDE13A00CA3867 /* NanoChallange2App.swift */,
+				B7D02D032BFDE13A00CA3867 /* ContentView.swift */,
+				B7D02D052BFDE13C00CA3867 /* Assets.xcassets */,
+				B7D02D072BFDE13C00CA3867 /* Preview Content */,
+			);
+			path = NanoChallange2;
+			sourceTree = "<group>";
+		};
+		B7D02D072BFDE13C00CA3867 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7D02D082BFDE13C00CA3867 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7D02D112BFDE13C00CA3867 /* NanoChallange2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D02D122BFDE13C00CA3867 /* NanoChallange2Tests.swift */,
+			);
+			path = NanoChallange2Tests;
+			sourceTree = "<group>";
+		};
+		B7D02D1B2BFDE13C00CA3867 /* NanoChallange2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D02D1C2BFDE13C00CA3867 /* NanoChallange2UITests.swift */,
+				B7D02D1E2BFDE13C00CA3867 /* NanoChallange2UITestsLaunchTests.swift */,
+			);
+			path = NanoChallange2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D02CFD2BFDE13A00CA3867 /* NanoChallange2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D02D222BFDE13C00CA3867 /* Build configuration list for PBXNativeTarget "NanoChallange2" */;
+			buildPhases = (
+				B7D02CFA2BFDE13A00CA3867 /* Sources */,
+				B7D02CFB2BFDE13A00CA3867 /* Frameworks */,
+				B7D02CFC2BFDE13A00CA3867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoChallange2;
+			productName = NanoChallange2;
+			productReference = B7D02CFE2BFDE13A00CA3867 /* NanoChallange2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7D02D0D2BFDE13C00CA3867 /* NanoChallange2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D02D252BFDE13C00CA3867 /* Build configuration list for PBXNativeTarget "NanoChallange2Tests" */;
+			buildPhases = (
+				B7D02D0A2BFDE13C00CA3867 /* Sources */,
+				B7D02D0B2BFDE13C00CA3867 /* Frameworks */,
+				B7D02D0C2BFDE13C00CA3867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D02D102BFDE13C00CA3867 /* PBXTargetDependency */,
+			);
+			name = NanoChallange2Tests;
+			productName = NanoChallange2Tests;
+			productReference = B7D02D0E2BFDE13C00CA3867 /* NanoChallange2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7D02D172BFDE13C00CA3867 /* NanoChallange2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D02D282BFDE13C00CA3867 /* Build configuration list for PBXNativeTarget "NanoChallange2UITests" */;
+			buildPhases = (
+				B7D02D142BFDE13C00CA3867 /* Sources */,
+				B7D02D152BFDE13C00CA3867 /* Frameworks */,
+				B7D02D162BFDE13C00CA3867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D02D1A2BFDE13C00CA3867 /* PBXTargetDependency */,
+			);
+			name = NanoChallange2UITests;
+			productName = NanoChallange2UITests;
+			productReference = B7D02D182BFDE13C00CA3867 /* NanoChallange2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D02CF62BFDE13A00CA3867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B7D02CFD2BFDE13A00CA3867 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B7D02D0D2BFDE13C00CA3867 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7D02CFD2BFDE13A00CA3867;
+					};
+					B7D02D172BFDE13C00CA3867 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7D02CFD2BFDE13A00CA3867;
+					};
+				};
+			};
+			buildConfigurationList = B7D02CF92BFDE13A00CA3867 /* Build configuration list for PBXProject "NanoChallange2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D02CF52BFDE13A00CA3867;
+			productRefGroup = B7D02CFF2BFDE13A00CA3867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D02CFD2BFDE13A00CA3867 /* NanoChallange2 */,
+				B7D02D0D2BFDE13C00CA3867 /* NanoChallange2Tests */,
+				B7D02D172BFDE13C00CA3867 /* NanoChallange2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D02CFC2BFDE13A00CA3867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D02D092BFDE13C00CA3867 /* Preview Assets.xcassets in Resources */,
+				B7D02D062BFDE13C00CA3867 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D02D0C2BFDE13C00CA3867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D02D162BFDE13C00CA3867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D02CFA2BFDE13A00CA3867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D02D042BFDE13A00CA3867 /* ContentView.swift in Sources */,
+				B7D02D022BFDE13A00CA3867 /* NanoChallange2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D02D0A2BFDE13C00CA3867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D02D132BFDE13C00CA3867 /* NanoChallange2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D02D142BFDE13C00CA3867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D02D1D2BFDE13C00CA3867 /* NanoChallange2UITests.swift in Sources */,
+				B7D02D1F2BFDE13C00CA3867 /* NanoChallange2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7D02D102BFDE13C00CA3867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D02CFD2BFDE13A00CA3867 /* NanoChallange2 */;
+			targetProxy = B7D02D0F2BFDE13C00CA3867 /* PBXContainerItemProxy */;
+		};
+		B7D02D1A2BFDE13C00CA3867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D02CFD2BFDE13A00CA3867 /* NanoChallange2 */;
+			targetProxy = B7D02D192BFDE13C00CA3867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7D02D202BFDE13C00CA3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7D02D212BFDE13C00CA3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D02D232BFDE13C00CA3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NanoChallange2/Preview Content\"";
+				DEVELOPMENT_TEAM = J56U42A6JG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.NanoChallange2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D02D242BFDE13C00CA3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NanoChallange2/Preview Content\"";
+				DEVELOPMENT_TEAM = J56U42A6JG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.NanoChallange2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7D02D262BFDE13C00CA3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J56U42A6JG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.NanoChallange2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoChallange2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NanoChallange2";
+			};
+			name = Debug;
+		};
+		B7D02D272BFDE13C00CA3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J56U42A6JG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.NanoChallange2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoChallange2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NanoChallange2";
+			};
+			name = Release;
+		};
+		B7D02D292BFDE13C00CA3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J56U42A6JG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.NanoChallange2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoChallange2;
+			};
+			name = Debug;
+		};
+		B7D02D2A2BFDE13C00CA3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J56U42A6JG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lazuardhi.NanoChallange2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoChallange2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D02CF92BFDE13A00CA3867 /* Build configuration list for PBXProject "NanoChallange2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D02D202BFDE13C00CA3867 /* Debug */,
+				B7D02D212BFDE13C00CA3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D02D222BFDE13C00CA3867 /* Build configuration list for PBXNativeTarget "NanoChallange2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D02D232BFDE13C00CA3867 /* Debug */,
+				B7D02D242BFDE13C00CA3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D02D252BFDE13C00CA3867 /* Build configuration list for PBXNativeTarget "NanoChallange2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D02D262BFDE13C00CA3867 /* Debug */,
+				B7D02D272BFDE13C00CA3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D02D282BFDE13C00CA3867 /* Build configuration list for PBXNativeTarget "NanoChallange2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D02D292BFDE13C00CA3867 /* Debug */,
+				B7D02D2A2BFDE13C00CA3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D02CF62BFDE13A00CA3867 /* Project object */;
+}
