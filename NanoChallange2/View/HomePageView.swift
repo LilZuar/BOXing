@@ -18,9 +18,9 @@ struct HomePageView: View {
     var body: some View {
         ZStack {
             Image("Background")
-//                .onAppear{
-//                    soundEffect.playSound(soundName: "Backsound", soundExtension: "mp3")
-//                }
+                .onAppear{
+                    soundEffect.playSound(soundName: "Backsound", soundExtension: "mp3")
+                }
                 .ignoresSafeArea(.all)
             VStack{
                 Button(action: {

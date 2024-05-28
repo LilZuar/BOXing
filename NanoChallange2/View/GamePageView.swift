@@ -27,6 +27,7 @@ struct GamePageView: View {
                     Spacer()
                 }
                 .padding()
+                // FIXME: ini timerValue = 18, 17, 16 apakah cuma ada 3 box? kalau munculin terus mungkin bisa pakai foreach bisa
                 if timerValue > 18{
                     Text("PUNCH THE BOX!!!")
                         .font(.largeTitle)
@@ -38,6 +39,7 @@ struct GamePageView: View {
                         .foregroundColor(Color.white)
                         .frame(width: 160, height: 160)
                 }else if timerValue == 17{
+                    // FIXME: bisa bikin component sendiri agar bisa reusable
                     Image(systemName: "2.circle")
                         .resizable()
                         .foregroundColor(Color.white)
@@ -60,7 +62,7 @@ struct GamePageView: View {
         
         
     }
-    
+    // TODO: function bisa dimasukin ke dalam viewModel
     func startTimer() {
         timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect().sink { _ in
             if timerValue > 0 {
